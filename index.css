@@ -14,6 +14,7 @@ body {
     background-size: cover;
     background-color: rgb(97, 97, 97);
 }
+
 h5 {
     font-size: 1.5vw;
 }
@@ -21,13 +22,15 @@ h5 {
 a {
     text-decoration: none;
     color: rgb(108, 139, 145);
-    font-style:oblique;
 }
 
 button {
     width: 32%;
     margin: auto;
     margin-bottom: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(184,184,184);
 }
 
 .inp {
