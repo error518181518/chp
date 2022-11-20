@@ -11,12 +11,26 @@ var smartphones = [
     { name: 'Galaxy Note 5', price: 489 }
 ];
 
-function getprice() {
+function getprc() {
     prc_data = []
     for (i = 0; i<smartphones.length;i++) {
         prc_data.push(smartphones[i].price)
     }
     console.log(prc_data);
+}
+
+/*bài 3, chuyển func -> esc6*/ 
+const foo = (x,y,z) =>{ 
+    console.log(x,y,z); 
+}
+
+const foo01 = () =>{
+    alert("Hello")
+}
+
+const foo02 = (a,b) => {
+    let m = a+b*100
+    return m
 }
 
 /*Sign in*/
@@ -39,20 +53,6 @@ let user = [
         password: "789"
     },
 ]
-
-/*bài 3, chuyển func -> esc6*/ 
-const foo = (x,y,z) =>{ 
-    console.log(x,y,z); 
-}
-
-const foo01 = () =>{
-    alert("Hello")
-}
-
-const foo02 = (a,b) => {
-    let m = a+b*100
-    return m
-}
 
 /*sign in*/
 function subm(link) {
